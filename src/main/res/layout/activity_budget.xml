@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Budget"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="@color/fam2_blue"
+            android:padding="25dp"
+            android:text="Budget"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+        <ImageButton
+            android:id="@+id/mymoney"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_baseline_arrow_back_24"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Limit your expense "
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginTop="100dp"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_baseline_account_balance_wallet_24"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Baby:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="90dp"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Beauty:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="240dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Bills:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="320dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Car:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="90dp"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="410dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="410dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Clothing:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="480dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="540dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Education:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="560dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="570dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="570dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="620dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Electronics:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="640dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="700dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Entertainment:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="720dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="730dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="730dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="700dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Entertainment:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="720dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="730dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="730dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="780dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Food:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="210dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="800dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="810dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="810dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="860dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Health:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="880dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="890dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="890dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="940dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Home:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="960dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="970dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="970dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1020dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Shopping:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="1040dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1050dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1050dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1100dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Sport:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="210dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="1120dp"
+            android:background="@drawable/edittext"
+            android:inputType="numberDecimal" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1130dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1130dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1180dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Tax:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="1200dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1210dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1210dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1260dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Transport:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="1280dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1290dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1290dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1340dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/budget"
+            android:padding="20dp"
+            android:text="Others:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="1360dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1370dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_update_24"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1370dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/ic_baseline_delete_24"/>
+    </RelativeLayout>
+</ScrollView>
